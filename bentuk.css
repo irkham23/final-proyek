@@ -1,0 +1,131 @@
+html, body{
+	height: 855px;
+	width: 1325px;
+	margin-left: 0px;
+	margin-top: -20px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+.header{
+	height: 100px;
+	width: 1348px;
+	background-color: navy;
+}
+
+.header img {
+	width: 80px;
+	height: 80px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.UAD {
+	font-size: 40px;
+	font-family: ravie;
+	color: white;
+}
+
+.matkul {
+	font-size: 20px;
+	font-family: ravie;
+	margin-top: -40px;
+	color: white;
+}
+
+.menu {
+	height: 65px;
+	width: 1348px;
+	background-color: #DCDCDC;
+}
+
+.navbar-nav ul{
+    width: 100%;
+    text-align: center;
+    list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+ 	text-align: center;
+}
+
+.navbar-nav li{
+     float: none;
+     display: inline-block;
+}
+
+.navbar-nav li a {
+  	display: block;
+  	color: black;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+}
+
+.navbar-nav li a:hover {
+  	background-color: blue;
+}
+
+.menu table {
+	border-collapse: collapse; width: 1348px;height: 5%;
+}
+
+.content {
+	height: 570px;
+	width: 1348px;
+	font-family:  : time new roman;
+	color: white;
+	background-image: url(back.jpg); background-size: cover;
+}
+
+.content2 {
+	height: 570px;
+	width: 1348px;
+	margin-top: -20px;
+	font-family:  : time new roman;
+	color: black;
+	background-color: grey;
+}
+
+.content img {
+	width: 200px;height: 130px; border: 5px solid white;
+}
+
+.content1 {
+	height: 570px;
+	width: 1348px;
+}
+
+.foter {
+	height: 120px;
+	width: 1348px;
+	background-color: navy;
+	color: white;
+	font-family: Rockwell Extra;
+	margin-top: 0px; 
+}
+
+.foter img {
+	height: 30px;
+	width: 30px;
+	margin-top: 0px;
+}
+
+table {
+	height: 50px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+}
+
+.content2 {
+	height: 570px;
+	width: 1348px;
+}
+
+.isi {
+	width: 1348px;
+}

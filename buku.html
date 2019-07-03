@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Beli HP</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+</head>
+<body background="back.jpg" style="background-size: cover;">
+ 
+   <div class="container" align="center">		
+   <div align="center"><strong><font color="white" size="20" face="geramond, gill sans, cambria">FORM PEMBELIAN</font></strong></div>
+<form action="proses.php" method="post">
+  <table align="center">
+    <tr>
+  <div class="form-group">
+    <td><label for="nama" ><font color="white">Nama Lengkap</td><td>:</td></font></label>
+    <td><input type="text" name="nama" class="form-control" id="nama"></td>
+  </div></tr>
+  <tr>
+  <div class="form-group">
+    <td><label for="alamat"><font color="white">Alamat</td><td>:</td></font></label>
+    <td><input type="text" name="alamat" class="form-control" id="alamat"></td>
+  </div></tr>
+  <tr>
+  <div class="form-group">
+  <td><label for="jk"><font color="white">Pilih Barang</td><td>:</td></font></label>
+  <td><select class="form-control" name="jk" id="jk">
+    <option value="Xiaomi Note 7">Xiaomi Note 7</option>
+    <option value="Iphone XR">Apple Iphone XR</option>
+    <option value="Samsung A8">Samsung Galaxy A8 Plus</option>
+    </select></td>
+</div></tr>
+<tr>
+<div class="form-group">
+    <td><label for="jumlah"><font color="white">Jumlah Barang</td><td>:</td></font></label>
+    <td><input type="text" name="jumlah" class="form-control" id="jumlah"></td>
+  </div></tr>
+  </table>
+    <button type="submit" name="Submit" class="btn btn-primary">Submit</button>
+    <button type="reset" name="Submit2" class="btn btn-danger">Reset</button>
+</form>
+   </div>
+<table align="center">
+  <tr>
+   <div class="form-group">
+     <td><img src="xiaomi.jpg" style="width: 200px; height: 200px"></td><td><img src="iphonex.jpg" style="width: 200px; height: 200px"></td><td><img src="samsung.jpg" style="width: 200px; height: 200px"></td>
+   </div></tr>
+ </table>
+</body>
+</html>

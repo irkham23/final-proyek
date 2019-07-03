@@ -1,0 +1,50 @@
+body{
+	background: grey;
+	font-family: sans-serif;
+}
+ 
+.bil{
+	width: 300px;
+	margin: 5px;
+	font-size: 12pt;
+	padding: 10px;	
+}
+
+.nama{
+	width: 300px;
+	margin: 5px;
+	font-size: 12pt;
+	padding: 10px;	
+}
+
+.NIM{
+	width: 300px;
+	margin: 5px;
+	font-size: 12pt;
+	padding: 10px;	
+}
+ 
+.pilih{
+	font-size: 16pt;
+	border: none;
+	width: 200px;
+	margin: 5px;
+	padding: 10px;
+}
+ 
+.tombol{
+	background: black;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: none;
+	padding: 10px 20px;
+	color: white;
+	font-size: 15pt;
+}
+ 
+.judul{
+	text-align: center;
+	color: black;
+	font-weight: normal;
+}
